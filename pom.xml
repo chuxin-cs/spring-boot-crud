@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- 固定写法 -->
     <modelVersion>4.0.0</modelVersion>
+
+    <!-- 项目描述 -->
+    <groupId>com.chuxin</groupId>
+    <artifactId>demo-todo-list</artifactId>
+    <version>1.0.0</version>
+    <name>demo-todo-list</name>
+    <description>基于 Java 17 + SpringBoot 3 + Spring Security 构建的权限管理系统</description>
+
+    <!-- 父项目 -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.3.1</version>
+        <version>3.3.2</version>
         <relativePath/>
     </parent>
 
-    <groupId>com.chuxin</groupId>
-    <artifactId>demo-todo-list</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>demo-todo-list</name>
-    <description>demo-todo-list</description>
-
+    <!-- 管理项目依赖版本 -->
     <properties>
+        <!-- java 版本 -->
         <java.version>17</java.version>
     </properties>
 
