@@ -66,5 +66,5 @@ public class User extends BaseEntity {
     /**
      * 更新人 ID
      */
-    private String updateBy;
+    private Long updateBy;
 }
