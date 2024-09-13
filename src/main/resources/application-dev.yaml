@@ -42,20 +42,6 @@ spring:
       time-to-live: 3600000
       # 缓存null值，防止缓存穿透
       cache-null-values: true
-  # 邮件配置
-  mail:
-    host: smtp.youlai.tech
-    port: 587
-    username: your-email@example.com
-    password: 123456
-    properties:
-      mail:
-        smtp:
-          auth: true
-          starttls:
-            enable: true
-    # 邮件发送者
-    from: youlaitech@163.com
 
 mybatis-plus:
   global-config:
